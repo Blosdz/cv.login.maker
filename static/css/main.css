@@ -1,0 +1,21 @@
+*{
+    cursor:url("/static/imgs/cursor.gif"),auto;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{
+    background-image: url("../imgs/bustII2.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navigation{
+    padding: 30px;
+}
+
+a{
+    cursor:url("/static/imgs/cursor2.gif"),default;  
+}

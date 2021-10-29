@@ -1,0 +1,14 @@
+{%block head%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/home.css')}}">
+
+{%endblock%}
+
+{%extends 'index.html'%}
+{%block content%}
+    <div class='container'>
+        <h1>login authethication system in flask</h1>
+        <a href="{{url_for('login')}}">Login</a><br>
+        <a href="{{url_for('register')}}">register</a><br>
+
+    </div>
+{%endblock%}
